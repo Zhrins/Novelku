@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>179 Kilometer — Web Novel Interaktif</title>
+    <!-- Google Fonts: Plus Jakarta Sans & Playfair Display untuk kesan novel modern -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome untuk ikon modern -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-color: #0c0a1d;
+            --surface-color: #16132d;
+            --surface-glass: rgba(22, 19, 45, 0.7);
+            --primary-accent: #8b5cf6;
+            --secondary-accent: #c084fc;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --border-color: rgba(139, 92, 246, 0.2);
+            --shadow-glow: 0 0 25px rgba(139, 92, 246, 0.15);
+        }
+
+        [data-theme="light"] {
+            --bg-color: #f8fafc;
+            --surface-color: #ffffff;
+            --surface-glass: rgba(255, 255, 255, 0.85);
+            --primary-accent: #7c3aed;
+            --secondary-accent: #9333ea;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border-color: rgba(124, 58, 237, 0.15);
+            --shadow-glow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Efek Bintang/Galaksi Latar Belakang */
+        .stars-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            background: radial-gradient(circle at 50% 20%, rgba(139, 92, 246, 0.08) 0%, transparent 60%);
+            z-index: 0;
+        }
+
+        /* Header / Navbar Modern */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--surface-glass);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo-icon {
+            font-size: 1.25rem;
+            color: var(--primary-accent);
+            background: var(--border-color);
+            padding: 0.5rem;
+            border-radius: 10px;
+        }
+
+        .logo-text h1 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .logo-text span {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .header-controls {
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+        }
+
+        .icon-btn {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--shadow-glow);
+        }
+
+        .icon-btn:hover {
+            border-color: var(--primary-accent);
+            transform: translateY(-2px);
+        }
+
+        /* Layout Utama Novel */
+        main {
+            flex: 1;
+            max-width: 850px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem 5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Kartu Konten Bab */
+        .chapter-card {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 3rem 2.5rem;
+            box-shadow: var(--shadow-glow);
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .chapter-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 2rem;
+            color: var(--text-main);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 1rem;
+        }
+
+        .chapter-content {
+            font-size: 1.08rem;
+            line-height: 1.85;
+            color: var(--text-main);
+        }
+
+        .chapter-content p {
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .chapter-content blockquote {
+            border-left: 4px solid var(--primary-accent);
+            background: rgba(139, 92, 246, 0.05);
+            padding: 1.25rem 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 12px 12px 0;
+            font-style: italic;
+        }
+
+        /* Navigasi Bawah Bab */
+        .chapter-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .nav-btn {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 0.75rem 1.25rem;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            box-shadow: var(--shadow-glow);
+        }
+
+        .nav-btn:hover:not(:disabled) {
+            background: var(--primary-accent);
+            color: #ffffff;
+            border-color: var(--primary-accent);
+        }
+
+        .nav-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .chapter-indicator {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        /* Modal Daftar Bab (Drawer) */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(5px);
+            z-index: 1000;
+            display: flex;
+            justify-content: flex-end;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .drawer {
+            background: var(--surface-color);
+            width: 100%;
+            max-width: 400px;
+            height: 100%;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            transform: translateX(100%);
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            border-left: 1px solid var(--border-color);
+        }
+
+        .modal-overlay.active .drawer {
+            transform: translateX(0);
+        }
+
+        .drawer-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .drawer-header h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+
+        .chapter-list {
+            flex: 1;
+            overflow-y: auto;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding-right: 0.5rem;
+        }
+
+        .chapter-item {
+            padding: 0.85rem 1rem;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 0.95font-size;
+            font-weight: 500;
+            color: var(--text-muted);
+            border: 1px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .chapter-item:hover {
+            background: rgba(139, 92, 246, 0.08);
+            color: var(--text-main);
+        }
+
+        .chapter-item.active {
+            background: var(--primary-accent);
+            color: #ffffff;
+            font-weight: 600;
+            box-shadow: var(--shadow-glow);
+        }
+
+        /* Scrollbar kustom */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 10px;
+        }
+
+        /* Responsif HP */
+        @media (max-width: 768px) {
+            .chapter-card {
+                padding: 1.75rem 1.25rem;
+            }
+            .chapter-title {
+                font-size: 1.5rem;
+            }
+            main {
+                padding: 1.5rem 1rem 4rem;
+            }
+        }
+    </style>
+</head>
+<body data-theme="dark">
+
+    <div class="stars-bg"></div>
+
+    <!-- Header / Navigasi Atas -->
+    <header>
+        <div class="logo-area">
+            <div class="logo-icon"><i class="fa-solid fa-book-open"></i></div>
+            <div class="logo-text">
+                <h1>179 Kilometer</h1>
+                <span>Web Novel Interaktif</span>
+            </div>
+        </div>
+        <div class="header-controls">
+            <button class="icon-btn" id="themeToggle" title="Ganti Tema"><i class="fa-solid fa-moon" id="themeIcon"></i></button>
+            <button class="icon-btn" id="menuToggle" title="Daftar Bab"><i class="fa-solid fa-bars-staggered"></i></button>
+        </div>
+    </header>
+
+    <!-- Konten Utama Novel -->
+    <main>
+        <article class="chapter-card">
+            <h2 class="chapter-title" id="chapterTitle">Memuat Bab...</h2>
+            <div class="chapter-content" id="chapterContent">
+                <p>Silakan tunggu sebentar, memuat halaman novel...</p>
+            </div>
+            
+            <!-- Navigasi Bawah -->
+            <div class="chapter-nav">
+                <button class="nav-btn" id="prevBtn" onclick="changeChapter(-1)"><i class="fa-solid fa-arrow-left"></i> Bab Sebelumnya</button>
+                <span class="chapter-indicator" id="chapterIndicator">0 / 0</span>
+                <button class="nav-btn" id="nextBtn" onclick="changeChapter(1)">Bab Selanjutnya <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </article>
+    </main>
+
+    <!-- Drawer Daftar Bab -->
+    <div class="modal-overlay" id="drawerModal" onclick="toggleDrawer()">
+        <div class="drawer" onclick="event.stopPropagation()">
+            <div class="drawer-header">
+                <h2>Daftar Bab</h2>
+                <button class="icon-btn" onclick="toggleDrawer()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <ul class="chapter-list" id="chapterList">
+                <!-- Daftar bab di-generate otomatis via JS -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Panggil Semua Modul Data Novel (Bab 1 s.d Bab 20 Tamat) -->
+    <script src="data.js"></script>
+    <script src="data2.js"></script>
+    <script src="data3.js"></script>
+    <script src="data4.js"></script>
+    <script src="data5.js"></script>
+    <script src="data6.js"></script>
+    <script src="data7.js"></script>
+    <script src="data8.js"></script>
+    <script src="data9.js"></script>
+    <script src="data10.js"></script>
+    <script src="data11.js"></script>
+    <script src="data12.js"></script>
+    <script src="data13.js"></script>
+    <script src="data14.js"></script>
+    <script src="data15.js"></script>
+    <script src="data16.js"></script>
+    <script src="data17.js"></script>
+    <script src="data18.js"></script>
+
+    <!-- Script Utama Pengatur Novel & UI/UX -->
+    <script>
+        // Menggabungkan seluruh bab dari file modul yang ada
+        const allNovels = [].concat(
+            typeof novelData !== 'undefined' ? novelData : [],
+            typeof novelData2 !== 'undefined' ? novelData2 : [],
+            typeof novelData3 !== 'undefined' ? novelData3 : [],
+            typeof novelData4 !== 'undefined' ? novelData4 : [],
+            typeof novelData5 !== 'undefined' ? novelData5 : [],
+            typeof novelData6 !== 'undefined' ? novelData6 : [],
+            typeof novelData7 !== 'undefined' ? novelData7 : [],
+            typeof novelData8 !== 'undefined' ? novelData8 : [],
+            typeof novelData9 !== 'undefined' ? novelData9 : [],
+            typeof novelData10 !== 'undefined' ? novelData10 : [],
+            typeof novelData11 !== 'undefined' ? novelData11 : [],
+            typeof novelData12 !== 'undefined' ? novelData12 : [],
+            typeof novelData13 !== 'undefined' ? novelData13 : [],
+            typeof novelData14 !== 'undefined' ? novelData14 : [],
+            typeof novelData15 !== 'undefined' ? novelData15 : [],
+            typeof novelData16 !== 'undefined' ? novelData16 : [],
+            typeof novelData17 !== 'undefined' ? novelData17 : [],
+            typeof novelData18 !== 'undefined' ? novelData18 : []
+        );
+
+        let currentChapter = parseInt(localStorage.getItem('novel_current_chapter')) || 0;
+
+        function renderNovel() {
+            if (allNovels.length === 0) {
+                document.getElementById('chapterTitle').innerText = "Data Kosong";
+                document.getElementById('chapterContent').innerHTML = "<p>File modul data novel belum terbaca dengan benar. Pastikan semua file data.js hingga data18.js berada di folder yang sama.</p>";
+                return;
+            }
+
+            // Pastikan batas index aman
+            if (currentChapter < 0) currentChapter = 0;
+            if (currentChapter >= allNovels.length) currentChapter = allNovels.length - 1;
+
+            const chapter = allNovels[currentChapter];
+            document.getElementById('chapterTitle').innerText = chapter.title;
+            document.getElementById('chapterContent').innerHTML = chapter.content;
+            document.getElementById('chapterIndicator').innerText = `Bab ${currentChapter + 1} dari ${allNovels.length}`;
+
+            // Status Tombol Navigasi
+            document.getElementById('prevBtn').disabled = currentChapter === 0;
+            document.getElementById('nextBtn').disabled = currentChapter === allNovels.length - 1;
+
+            // Simpan posisi baca terakhir di localStorage
+            localStorage.setItem('novel_current_chapter', currentChapter);
+
+            // Scroll mulus ke atas saat ganti bab
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            // Update aktif di daftar bab
+            updateChapterListUI();
+        }
+
+        function changeChapter(direction) {
+            currentChapter += direction;
+            renderNovel();
+        }
+
+        function goToChapter(index) {
+            currentChapter = index;
+            renderNovel();
+            toggleDrawer();
+        }
+
+        function toggleDrawer() {
+            document.getElementById('drawerModal').classList.toggle('active');
+        }
+
+        function buildChapterList() {
+            const listContainer = document.getElementById('chapterList');
+            listContainer.innerHTML = '';
+            allNovels.forEach((ch, idx) => {
+                const li = document.createElement('li');
+                li.className = `chapter-item ${idx === currentChapter ? 'active' : ''}`;
+                li.innerText = ch.title;
+                li.onclick = () => goToChapter(idx);
+                listContainer.appendChild(li);
+            });
+        }
+
+        function updateChapterListUI() {
+            const items = document.querySelectorAll('.chapter-item');
+            items.forEach((item, idx) => {
+                if (idx === currentChapter) {
+                    item.classList.add('active');
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+        }
+
+        // Toggle Tema Gelap / Terang
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const bodyEl = document.body;
+
+        const savedTheme = localStorage.getItem('novel_theme') || 'dark';
+        bodyEl.setAttribute('data-theme', savedTheme);
+        updateThemeIcon(savedTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = bodyEl.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            bodyEl.setAttribute('data-theme', newTheme);
+            localStorage.setItem('novel_theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+
+        function updateThemeIcon(theme) {
+            if (theme === 'light') {
+                themeIcon.className = 'fa-solid fa-sun';
+            } else {
+                themeIcon.className = 'fa-solid fa-moon';
+            }
+        }
+
+        document.getElementById('menuToggle').addEventListener('click', toggleDrawer);
+
+        // Jalankan saat pertama kali dimuat
+        window.onload = () => {
+            buildChapterList();
+            renderNovel();
+        };
+    </script>
+</body>
+</html>
