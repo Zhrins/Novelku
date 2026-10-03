@@ -49,5 +49,52 @@ const novelData2 = [
             <p>Indra dan Habib yang duduk di sudut ruangan mendadak menghentikan kunyahan mereka. Mereka saling berpandangan sekilas, menangkap perubahan nada suara Sakra yang mendadak sangat serius, lembut, dan penuh beban. Indra mengisyaratkan pada Habib dengan gerakan mata agar tidak bersuara keras-keras, menghargai privasi sahabat mereka yang sedang bertarung dengan badai rindu lintas kabupaten.</p>
             <p>Malam itu, di Hari ke-28, di tengah badai hujan yang melumpuhkan Bandung dan Pangandaran, Sakra belajar arti paling pahit dari sebuah hubungan jarak jauh: terkadang, bentuk cinta yang paling besar bukanlah tentang seberapa sering kita bersama, melainkan tentang seberapa kuat kita harus <strong>menahan diri</strong> untuk tidak menerjang batas ketika semesta sedang tidak berpihak pada pertemuan. Dan esok hari, di balik sisa-sisa kelelahan itu, Sakra tahu ia masih harus menghadapi setumpuk data yang hilang di ruang MDC SMAN 90 Bandung.</p>
         `
+    },
+    { 
+        title: "Bab 4: Hari ke-45 — Dua Layar, Dua Dunia", 
+        content: `
+            <p>Dua belas hari telah berlalu sejak badai sore itu mereda di Bandung. Pagi ini, udara SMAN 90 Bandung kembali diuji oleh terik matahari yang menyengat sejak pukul delapan pagi. Di dalam kelas XII IPA 2, suasana terasa kaku karena guru mata pelajaran Fisika, Pak Wahyu, sedang menuliskan rumus termodinamika yang panjang dan rumit di papan tulis. Suara kapur putih yang bergesekan dengan permukaan papan menciptakan suara <em>cit-cit</em> tajam yang menusuk telinga.</p>
+            <p>Sakra duduk di bangku baris kedua dari depan, namun pikirannya berada di tempat yang sangat jauh dari rumus-rumus mesin kalor tersebut.</p>
+            <p>Matanya menatap kosong ke arah buku catatan di hadapannya. Semalaman penuh, Sakra tidak tidur sedetik pun. Ia harus begadang sampai subuh untuk memulihkan seluruh data <em>backup</em> MDC yang hilang akibat <em>flashdisk</em> Dimas, sekaligus menyelesaikan target <em>rank</em> pesanan Bara si klien joki yang terus-menerus menagih <em>progress</em>. Akibat kurang tidur yang kronis dan beban fisik yang terforsir, kepalanya terasa berdenyut-denyut nyeri hebat.</p>
+            <p><em>Cok...</em></p>
+            <p>Sakra merasakan ada cairan hangat yang mengalir tiba-tiba dari lubang hidung kanannya.</p>
+            <p>Ia mengerjap cepat, lalu meraba hidungnya dengan punggung tangan. Saat ia menarik tangannya kembali, noda darah segar berwarna merah pekat telah mengotori kulit jarinya. Sakra mendesah pelan. Mimisan. Ini adalah kali kedua minggu ini ia mengalami pendarahan hidung akibat kelelahan ekstrem.</p>
+            <p>Tanpa menimbulkan suara gaduh yang bisa menarik perhatian Pak Wahyu, Sakra merogoh saku celananya, mengambil selembar tisu putih, lalu menyumpal hidungnya rapat-rapat. Ia menundukkan kepala, mencoba mengatur napasnya yang pendek.</p>
+            <p>Di bangku sebelah kirinya, Indra melirik sekilas ke arah Sakra. Wajah Indra langsung mengernyit ngeri melihat tisu berdarah di hidung Sakra.</p>
+            <p>"Walah, Kra... lu mimisan lagi?" bisik Indra cemas, menggeser sedikit kursinya. "Gila, muka lu pucat banget kayak zombi kurang darah. Lu beneran mau mati muda gara-gara ngurusin joki game sama data Pramuka?"</p>
+            <p>"Gue gak apa-apa, Ndra. Kurang cairan doang," balas Sakra berbisik parau, suaranya serak dan nyaris tak terdengar di atas suara Pak Wahyu yang sedang menjelaskan siklus Carnot.</p>
+            <p>"Gak apa-apa kepala lu peyang!" gerutu Indra kesal. "Tugas kelompok fisika kemarin aja lu gak kerjain bagian lu kan? Kalau bukan karena gue sama Habib yang nutupin kerjaan lu di depan Pak Wahyu, lu pasti udah diseret ke ruang BK."</p>
+            <p>Sakra hanya bisa diam. Ia tahu Indra benar. Ia sudah mulai keteteran di sekolah. Nilai ulangannya mulai turun, dan beberapa kali ia ketahuan tidur di kelas oleh guru piket. Di balik keteraturan barisan kode skrip yang ia buat di kamar, kehidupan nyata Sakra di SMAN 90 Bandung sedang berada di ambang kehancuran perlahan-lahan.</p>
+            <p>Namun, di saat yang hampir bersamaan, sejauh 179 kilometer ke arah tenggara, di koridor SMAN 81 Pangandaran, dunia berjalan dengan ritme yang sama sekali berbeda namun sama melelahkannya.</p>
+            <p>Tasya sedang berdiri di depan ruang sekretariat OSIS, memegang setumpuk kardus berisi proposal kegiatan pentas seni yang baru saja dicetak. Angin laut yang membawa bau garam berembus kencang, menerbangkan helaian rambut Tasya yang diikat kuda. Di sampingnya, Rian—sang Ketua OSIS SMAN 81 yang berpostur tinggi tegap dengan jas almamater rapi—berjalan mendekat sambil membawa dua botol air mineral dingin.</p>
+            <p>"Nih, minum dulu, Sya. Keliatan banget capeknya dari tadi pagi ngurusin revisi proposal," kata Rian ramah sambil menyodorkan sebotol air mineral kepada Tasya.</p>
+            <p>Tasya menoleh, tersenyum sopan lalu menerima botol tersebut. "Makasih banyak ya, Rian. Duh, untung ada lu yang bantu angkatin kardus ini, kalau sendirian bisa encok pinggang gue."</p>
+            <p>"Santai aja, emang udah tugas kita buat saling bantu di OSIS," canda Rian tertawa renyah.</p>
+            <p>Bagi Tasya, kehadiran Rian di sekolah adalah sebuah bentuk pertolongan fisik yang nyata. Setiap kali ia kelelahan membawa tumpukan dokumen, kesulitan mengatur jadwal rapat, atau butuh bantuan mengangkat barang berat di lingkungan SMAN 81, Rian selalu ada di sampingnya tanpa harus diminta. Namun, di balik rasa terima kasihnya itu, terselip sebuah kontras yang makin hari makin menghujam batin Tasya.</p>
+            <p>Rian membantunya secara nyata dan fisik di sini, di sekolah yang sama. Sementara Sakra... kekasihnya yang terpisah jarak 179 kilometer di Bandung, harus membanting tulang seorang diri, begadang melayani klien joki game, dan mengiriminya makanan lewat ojek <em>online</em> lintas kota dengan pengorbanan yang tak terlihat oleh mata.</p>
+            <p>Saat Tasya membuka tas sekolahnya untuk mengambil ponsel, pandangannya tertumbuk pada sebuah struk kertas kecil dari pengiriman ojek <em>online</em> lintas kota yang terselip di dalam buku catatannya.</p>
+            <p>Melihat struk itu, senyum di wajah Tasya perlahan memudar, digantikan oleh tarikan napas berat yang sarat akan rasa bersalah.</p>
+            <p>Beberapa hari lalu, teman-teman OSIS-nya sempat bergosip di ruang sekretariat: <em>"Pacar lu tuh hebat banget ya, Sya, perhatian mulu dari Bandung. Tapi kalau lu di sini dibantuin mulu sama Rian secara langsung, sementara pacar lu berdarah-darah di sana, lama-lama keliatan jomplang banget."</em></p>
+            <p>Kalimat-kalimat itu berputar-putar di kepala Tasya, memperparah rasa <em>insecure</em> yang menggerogoti hatinya. Tasya merasa dirinya adalah pacar yang buruk—menerima terlalu banyak pengorbanan dari Sakra, namun hanya bisa berpangku tangan dan mengandalkan bantuan fisik dari Rian di sekolah.</p>
+            <p>Tasya membuka kunci layar ponselnya. Ada pesan baru dari Sakra yang dikirim setengah jam lalu:</p>
+            <blockquote>
+                <strong>Sakra:</strong> <em>“Lagi istirahat ya, Sya? Jangan lupa makan siang ya, jangan telat lambungnya.”</em>
+            </blockquote>
+            <p>Tasya menatap pesan itu lama sekali, dadanya terasa sesak oleh timbunan rasa bersalah yang teramat berat.</p>
+            <p>Kembali ke kelas XII IPA 2 SMAN 90 Bandung, bel istirahat akhirnya berbunyi nyaring.</p>
+            <p><em>Kringgggg!</em></p>
+            <p>Pak Wahyu membereskan buku-bukunya dan meninggalkan kelas. Sontak, suasana kelas langsung pecah oleh suara kursi yang digeser dan gerutuan para siswa.</p>
+            <p>Sakra melepas tisu dari hidungnya, memastikan pendarahan kecil itu sudah berhenti meski meninggalkan rasa pening yang berdenyut di pelipis. Ia meraih ponselnya dari saku, berniat membalas pesan Tasya. Namun sebelum sempat ia mengetik, layar ponselnya bergetar. Sebuah panggilan suara masuk dari Trea, sahabat perempuannya yang bersekolah di SMA lain di Bandung.</p>
+            <p>Sakra menggeser tombol hijau dan mendekatkan ponsel ke telinganya.</p>
+            <p>"Halo, Sakra? Lu di mana sekarang?" suara Trea langsung terdengar mendesak di ujung sana, tanpa basa-basi ucapan salam. Nada suara Trea terdengar gelisah.</p>
+            <p>"Gue di kelas, baru beres pelajaran Fisika. Kenapa, Tre?" tanya Sakra bingung.</p>
+            <p>"Lu mendingan cek <em>chat</em> dari Tasya sekarang deh, atau coba telpon dia," ujar Trea dengan nada serius. "Barusan gue gak sengaja ngobrol agak lama sama Tasya lewat telpon. Sumpah ya, Sak, anak itu lagi down banget. Dia cerita sambil nangis-nangis ke gue."</p>
+            <p>Jantung Sakra mendadak berdegup kencang. Kantuk dan pening di kepalanya seketika menguap entah ke mana.</p>
+            <p>"Nangis? Tasya kenapa, Tre? Ada masalah apa di Pangandaran?"</p>
+            <p>"Bukannya ada masalah di sekolah, tapi dia mikirin <em>lu</em>, Sakra!" suara Trea meninggi di ujung sana, menyuarakan kekesalan sekaligus rasa khawatirnya sebagai sesama sahabat perempuan Tasya. "Tasya ngerasa bersalah banget karena dia ngerasa gak bisa ngimbangin semua pengorbanan, barang-barang, dan perhatian yang lu kasih ke dia. Dia bilang dia capek ngerasa jadi beban buat lu yang di Bandung kerja keras banting tulang sendirian."</p>
+            <p>Penjelasan Trea menghantam dada Sakra seperti hantaman palu godam.</p>
+            <p>Sakra terdiam kaku di bangkunya. Ponsel di tangannya terasa mendadak sangat berat. Ia mengira segala bentuk perhatian, kerja keras, dan pengorbanan malam-malam yang ia lakukan adalah bentuk cinta terbaik untuk menjaga Tasya. Namun ia tidak pernah menyangka, di seberang sana, di balik layar ponsel yang sama, niat baiknya justru menjadi sumber beban mental dan air mata bagi gadis yang paling ia cintai.</p>
+            <p>Dua layar, dua dunia yang terpisah 179 kilometer. Di sinilah benturan nyata itu dimulai—ketika ketulusan yang diberikan tanpa takaran yang pas justru mulai meretakkan hal yang paling ingin mereka jaga.</p>
+        `
     }
 ];
