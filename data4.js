@@ -1,0 +1,48 @@
+// File: data4.js
+const novelData4 = [
+    { 
+        title: "Bab 6: Hari ke-75 — Rekonsiliasi di Ujung Malam, Darah pada Keyboard, dan Benih Project_179", 
+        content: `
+            <p>Pukul 01.15 WIB. Udara malam di Bandung merayap masuk melalui celah-celah ventilasi kamar Sakra, membawa hawa dingin yang menusuk tulang. Namun, di dalam ruangan berukuran tiga kali tiga meter itu, atmosfer justru terasa panas dan pengap.</p>
+            <p>Sakra duduk terpaku di kursi kayunya, menatap nanar ke arah layar ponsel pribadinya yang tergeletak di samping tetikus. Sudah hampir dua jam sejak ia mematikan data selulernya secara sepihak usai melontarkan kalimat tajam kepada Tasya malam itu. Ego mudanya sempat mendominasi, menuntut agar Tasya mengerti betapa tersiksanya ia karena cemburu. Namun, seiring berjalannya waktu, kemarahan itu perlahan surut, digantikan oleh rasa bersalah yang teramat sangat. Menghukum Tasya dengan cara mendiamkannya bukanlah solusi; itu justru memperlebar jurang 179 kilometer yang sudah terbentang di antara mereka.</p>
+            <p>Dengan tangan yang sedikit gemetar, Sakra meraih ponselnya, menyalakan kembali sambungan internet, dan membuka aplikasi WhatsApp.</p>
+            <p>Layar langsung memuat deretan pesan yang masuk selama ia <em>offline</em>. Jantung Sakra berdegup kencang saat melihat rentetan gelembung chat dari Tasya.</p>
+            <blockquote>
+                <strong>Tasya:</strong> <em>“Sak... lu serius mau nutup percakapan kayak gini? Lu jahat banget kalau ngeraguin kejujuran gue.”</em><br><br>
+                <strong>Tasya:</strong> <em>“Gue capek-capek beraktivitas di sini, pas ngabarin lu malah dicurigai sama cowok yang bahkan gak ada apa-apanya buat gue selain teman organisasi.”</em><br><br>
+                <strong>Tasya:</strong> <em>“Kenapa lu jadi egois begini sih, Sakra? Kalau lu gak percaya sama gue, buat apa kita lanjutin komunikasi kayak gini?”</em>
+            </blockquote>
+            <p>Membaca pesan-pesan itu, dada Sakra terasa dihantam palu. Ia baru sadar bahwa kemarahannya tadi malam telah melukai harga diri Tasya. Sebelum ia sempat mengetik balasan, ponselnya tiba-tiba berdering nyaring. Panggilan suara masuk dari Tasya.</p>
+            <p>Tanpa buang waktu, Sakra langsung menggeser tombol hijau.</p>
+            <p>"Halo, Sya..." suara Sakra tercekat, parau dan jauh dari kata tegar.</p>
+            <p>Di ujung seberang sana, suara isakan kecil langsung menyambut pendengaran Sakra. Tasya rupanya belum tidur. Suara napas gadis itu terdengar berat, menahan tangis yang sudah pecah sejak beberapa jam lalu di kamarnya yang sunyi di Pangandaran.</p>
+            <p>"Sak... lu jahat," bisik Tasya di ujung telepon, suaranya bergetar hebat. "Kenapa lu gampang banget nuduh gue yang gak-gak? Lu pikir gampang jadi gue di sini? Jauh dari lu, berusaha mandiri, tapi pas gue cerita kegiatan lu, lu malah marah-marah."</p>
+            <p>Air mata Sakra hampir tumpah mendengar nada kepedihan di suara kekasihnya. Ia merutuki kebodohannya sendiri.</p>
+            <p>"Maafin gue, Sya..." potong Sakra cepat, suaranya melemah penuh penyesalan. "Maafin gue... emang bodoh tadi malam. Gue kalap, Sya. Gue capek, otak gue penat mikirin kerjaan dan jarak kita, tapi itu bukan alasan buat gue nyakitin lu. Sumpah, gue gak punya maksud buat ngeraguin kesetiaan lu. Gue cuma... gue cuma takut kehilangan lu karena gue gak ada di samping lu secara fisik."</p>
+            <p>Di seberang sana, isakan Tasya perlahan mereda, menyisakan helaan napas panjang yang sarat akan kelelahan emosional. Pertahanan Tasya runtuh mendengar kejujuran dan nada penyesalan yang tulus dari Sakra.</p>
+            <p>"Gue juga minta maaf, Sak..." suara Tasya melunak, ikut merendahkan egonya demi menyelamatkan hubungan mereka. "Gue emang salah karena gak langsung ngasih tahu dari awal siapa aja yang ikut ke bukit pinus. Tapi tolong... jangan pernah matiin HP atau di-diamin kayak tadi lagi. Itu bikin gue ngerasa sendirian banget di sini."</p>
+            <p>"Iya, Sya... janji, gue gak bakal ngulangin itu lagi," ucap Sakra mantap, menggenggam ponselnya erat-erat seolah ia sedang menggenggam tangan Tasya di hadapannya. "Gue sayang sama lu. Maafin ego gue ya."</p>
+            <p>"Iya... gue juga sayang sama lu, Sakra," balas Tasya pelan, menutup perdebatan malam itu dengan kehangatan yang mengalir lewat gelombang suara lintas kabupaten.</p>
+            <p>Panggilan telepon itu ditutup setelah hampir satu jam mereka saling mencurahkan isi hati, saling menguatkan, dan melunturkan sisa-sisa duri cemburu yang sempat merusak malam mereka.</p>
+            <p>Namun, setelah layar ponselnya kembali gelap, sisa-sisa beban mental itu tidak serta-merta menguap. Sakra duduk termenung di kursi kerjanya. Kejadian cemburu di Braga dan pertengkaran hebat mereka barusan membuka mata Sakra secara telanjang: hubungan jarak jauh ini membutuhkan bukti nyata yang lebih kuat dari sekadar kata-kata manis di balik layar ponsel. Ia harus melakukan sesuatu yang permanen untuk membuktikan keseriusan dan totalitas cintanya.</p>
+            <p>Jarum jam di sudut monitor menunjuk pukul 02.14 WIB. Kamar Sakra kembali jatuh dalam keheningan total yang pekat, hanya ditemani dengung kipas <em>cooling pad</em> laptop.</p>
+            <p>Di hadapan monitor empat belas inci, mata Sakra sudah merah menyala, dikelilingi lingkar hitam pekat akibat tiga malam berturut-turut kehilangan waktu tidur. Ia baru saja menyelesaikan pesanan joki game terakhir untuk melunasi kebutuhan finansialnya. Namun, malam ini, ia tidak berniat langsung tidur.</p>
+            <p>Jemarinya kembali bergerak di atas papan <em>keyboard</em> mekanikal. Di sela-sela ketikan itu, Sakra tiba-tiba merasakan perih yang amat sangat di ujung jari telunjuk kanannya. Ia menghentikan gerakannya, mengangkat tangan kanannya mendekat ke arah lampu meja untuk memeriksa sumber rasa sakit tersebut.</p>
+            <p>Ternyata, kulit di ujung jarinya telah terkelupas cukup dalam hingga mengeluarkan setitik darah segar. Luka kecil itu terbentuk akibat gesekan berulang yang terlalu keras dan konstan dengan sudut tuts <em>keyboard</em> selama belasan jam tanpa jeda istirahat yang layak.</p>
+            <p>Sakra mendesah pelan, mengusap setitik darah di jarinya dengan selembar tisu seadanya tanpa mempedulikan rasa perih yang masih berdenyut. Bagi Sakra, luka fisik sekecil ini sama sekali tidak ada apa-apanya jika dibandingkan dengan ketakutan kehilangan Tasya yang baru saja ia rasakan malam ini. Pertengkaran hebat tadi menyadarkannya bahwa ia harus memberikan jaminan emosional yang tidak terbantahkan.</p>
+            <p>Ia harus membuktikan pada Tasya—sekaligus pada kepantasan dirinya sendiri—bahwa jarak fisik 179 kilometer bukanlah alasan untuk membiarkan hubungan mereka goyah.</p>
+            <p>Sakra membuka aplikasi <em>Visual Studio Code</em> yang menjadi markas utama kreativitas digitalnya. Di dalam direktori kerja lokal komputernya, ia membuat sebuah folder baru dengan nama yang sudah ia rancang dan simpan dalam kepala sejak malam-malam penuh renungan. Jari-jarinya mengetik baris perintah terminal dengan penuh keyakinan dan determinasi tinggi:</p>
+            <blockquote>
+                <code>mkdir Project_179</code><br>
+                <code>cd Project_179</code><br>
+                <code>git init</code>
+            </blockquote>
+            <p><em>Project_179.</em></p>
+            <p>Sebuah proyek web aplikasi interaktif pribadi yang dirancang khusus dari nol menggunakan kombinasi HTML5, CSS3 modern, dan skrip animasi JavaScript tingkat lanjut. Proyek ini bukan sekadar portofolio pemrograman biasa; ini adalah monumen digital dari seluruh perjuangan rasa, air mata, dan rintangan jarak yang mereka hadapi. Di dalam web tersebut, Sakra merancang desain visual bertema galaksi malam yang dipadukan dengan palet warna ungu gelap dan hitam legam—warna-warna yang merepresentasikan kamar sunyinya saat merindukan Tasya di ujung selatan.</p>
+            <p>Setiap kali halaman web itu digulirkan ke bawah, animasi garis linier digital akan merentang secara dinamis dari titik koordinat Bandung menuju Pangandaran, melintasi angka <em>179 km</em> yang menyala terang berpendar.</p>
+            <p>Sakra mendedikasikan seluruh sisa energi fisik, sisa tabungan dari hasil joki game yang terkumpul, dan sisa kewarasannya untuk merampungkan proyek rahasia ini. Ia ingin web interaktif ini menjadi jawaban mutlak atas segala keraguan Tasya, sekaligus bukti nyata bahwa di balik setiap malam panjangnya yang melelahkan di Bandung, pikiran dan hatinya tidak pernah pergi ke mana-mana selain berlabuh pada satu nama.</p>
+            <p>Di bawah pendar monitor yang menyilaukan mata, ditemani tetesan darah kecil yang sempat mengotori sisi bodi <em>keyboard</em>-nya, Sakra terus mengetik baris demi baris kode logika dengan penuh obsesi. Ia sudah tidak peduli lagi pada tubuhnya yang menjerit minta istirahat, pada kepalanya yang berdenyut nyeri, atau pada matanya yang mulai kabur.</p>
+            <p>Yang ada di dalam kepalanya saat itu hanyalah satu bayangan tunggal: bagaimana ekspresi Tasya nanti, bagaimana suara tawa gadis itu saat membuka tautan web ini di hari ke-122 nanti dan menyadari bahwa Sakra tidak pernah main-main dengan perasaannya. Tanpa ia sadari sedikit pun, maha karya digital yang ia bangun dengan cucuran keringat, darah, dan air mata itu perlahan-lahan mulai bertransformasi menjadi sebuah beban psikologis raksasa—sebuah standar <em>effort</em> keterlaluan tinggi, yang kelak justru akan menjadi bumerang paling berat bagi ketenangan batin gadis yang sangat ia cintai di ujung selatan Jawa Barat sana.</p>
+        `
+    }
+];
